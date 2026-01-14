@@ -44,11 +44,8 @@
 	檔案系統類型為EXT4大小我分配為320 GB。此分區用於Linux系統的 “/home” 目錄。
 	
 除了上述4個分割區外，還剩284G左右，剩下的這部分可以當作一個正常的儲存硬碟來用。
-————————————————
-版權聲明：本文為CSDN部落客「果殼中的robot」的原始文章，遵循CC 4.0 BY-SA版權協議，轉載請附上原文出處連結及本聲明。
-原文連結：https://blog.csdn.net/hypc9709/article/details/127941834
 
-參考連結: [CSDN教學](https://blog.csdn.net/hypc9709/article/details/127941834)
+- 參考連結: [CSDN教學](https://blog.csdn.net/hypc9709/article/details/127941834)
 
 
 ## 3. 關閉 BitLocker 
