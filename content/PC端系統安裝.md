@@ -9,13 +9,9 @@
 
 ## 大綱
 [1. USB 映像檔ISO](#1.%20USB%20映像檔ISO)
-
 [2. SSD 分割](#2.%20SSD%20分割)
-
 [3. 關閉 BitLocker](#3.%20關閉%20BitLocker)
-
 [4. BISO 設定](#4.%20BISO%20設定)
-
 [5. 首次開機安裝流程](#5.%20首次開機安裝流程)
 
 [OS 概念](#OS%20概念)
@@ -48,8 +44,11 @@
 	檔案系統類型為EXT4大小我分配為320 GB。此分區用於Linux系統的 “/home” 目錄。
 	
 除了上述4個分割區外，還剩284G左右，剩下的這部分可以當作一個正常的儲存硬碟來用。
+————————————————
+版權聲明：本文為CSDN部落客「果殼中的robot」的原始文章，遵循CC 4.0 BY-SA版權協議，轉載請附上原文出處連結及本聲明。
+原文連結：https://blog.csdn.net/hypc9709/article/details/127941834
 
-- 參考連結: [CSDN教學](https://blog.csdn.net/hypc9709/article/details/127941834)
+參考連結: [CSDN教學](https://blog.csdn.net/hypc9709/article/details/127941834)
 
 
 ## 3. 關閉 BitLocker 
@@ -146,7 +145,7 @@ UEFI 規範定義：當偵測到「可移除裝置」時，若 NVRAM 無紀錄�
 
 ### 補救方法 (Troubleshooting)
 
-> 如果 Fallback Path 遺失導致無法開機，請使用安裝系統的 Live USB (如 [1. USB 映像檔ISO](https://www.google.com/search?q=%231)) 開機，選擇 "Try Ubuntu" 進入 Live 環境。 此時可透過 mount 該外接硬碟的 ESP 分割區，手動修復或複製 `.efi` 檔案。
+> 如果 Fallback Path 遺失導致無法開機，請使用安裝系統的  ([Live USB](#1.%20USB%20映像檔ISO)) 開機，選擇 "Try Ubuntu" 進入 Live 環境。 此時可透過 mount 該外接硬碟的 ESP 分割區，手動修復或複製 `.efi` 檔案。
 
 
 
