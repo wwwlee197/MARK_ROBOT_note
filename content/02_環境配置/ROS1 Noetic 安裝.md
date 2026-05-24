@@ -1,3 +1,8 @@
+---
+aliases:
+  - 02_環境配置/ROS1 Neotic 安裝
+---
+
 # ROS1 Noetic 安裝
 
 ## 目的

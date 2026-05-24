@@ -20,7 +20,7 @@
 第一次接手或重灌時，先完成硬體與作業系統安裝。
 
 - [PC 端系統安裝](01_系統安裝/PC端系統安裝.md)
-- [TWRB 樹莓派 OS 燒錄](01_系統安裝/twrb%20樹梅派%20OS%20燒錄.md)
+- [TWRB 樹莓派 OS 燒錄](01_系統安裝/twrb%20樹莓派%20OS%20燒錄.md)
 - [Arduino MEGA 程式碼燒錄](01_系統安裝/Arduino%20MEGA%20程式碼燒錄.md)
 
 ### 2. 環境配置
@@ -28,7 +28,7 @@
 PC 端需要同時準備 ROS1 Noetic、ROS2 Humble，並透過 ros1_bridge 讓兩邊 topic 可以互通。
 
 - [ROS2 Humble 安裝](02_環境配置/ROS2%20Humble%20安裝.md)
-- [ROS1 Noetic 安裝](02_環境配置/ROS1%20Neotic%20安裝.md)
+- [ROS1 Noetic 安裝](02_環境配置/ROS1%20Noetic%20安裝.md)
 - [ROS bridge 安裝](02_環境配置/ROS%20bridge%20安裝.md)
 - [bashrc 設定](02_環境配置/bashrc%20設定.md)
 

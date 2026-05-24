@@ -6,7 +6,7 @@
 
 ## 前置條件
 
-- 已完成 [ROS1 Noetic 安裝](ROS1%20Neotic%20安裝.md)。
+- 已完成 [ROS1 Noetic 安裝](ROS1%20Noetic%20安裝.md)。
 - 已完成 [ROS2 Humble 安裝](ROS2%20Humble%20安裝.md)。
 - 已安裝 colcon 相關開發工具。
 
