@@ -57,3 +57,8 @@ aliases:
 
 - 使用外接螢幕與 mini HDMI 線直接操作。
 - 將樹莓派接上路由器，用 [Angry IP Scanner](https://angryip.org/) 找到 IP，再透過 SSH 進去設定 NetworkManager、Wi-Fi 與固定 IP。
+
+## 開機密碼
+```
+pi
+```
