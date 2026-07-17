@@ -71,4 +71,4 @@ PC 端需要同時準備 ROS1 Noetic、ROS2 Humble，並透過 ros1_bridge 讓�
 - Arduino MEGA 已燒錄控制程式。
 - TWRB 端可以啟動 `serial_node.py`。
 
-最後更新: 2026/1/20
+最後更新: 2026/7/17
