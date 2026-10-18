@@ -71,10 +71,15 @@ ROS2 listener 若能收到 ROS1 talker 發出的 `/chatter` 訊息，代表 brid
 
 ## 專題執行指令
 
-實際跑 TWRB 時，bridge mode 會使用較完整的參數：
+實際跑 TWRB 時，使用雙向轉發參數，並先確認部署版支援的訊息型別配對：
 
 ```bash
-ros2 run ros1_bridge dynamic_bridge --bridge-all-2to1-topics --bridge-all-1to2-topics --qos-reliability best_effort --qos-durability volatile
+ros2 run ros1_bridge dynamic_bridge --print-pairs
+ros2 run ros1_bridge dynamic_bridge --bridge-all-2to1-topics --bridge-all-1to2-topics
 ```
+
+輪速命令與回授分別需要 `std_msgs/Int16MultiArray`、`std_msgs/Int32MultiArray` 的 ROS1／ROS2 配對。舊指令的 `--qos-reliability`／`--qos-durability` 沒有列在[官方 dynamic_bridge 參數解析](https://github.com/ros2/ros1_bridge/blob/master/src/dynamic_bridge.cpp)中，不應假設是通用的全域 QoS 設定；若現場使用客製版本，先以 `ros2 run ros1_bridge dynamic_bridge --help` 核對。
+
+本次保留既有 ROS1／ROS2 安裝與編譯方式；未在目前 Windows 文件環境重建 ROS。實際部署仍須確認 bridge 版本、型別配對與資料往返，詳見 [ROS Topic 與通訊協定](../04_程式碼說明/ROS%20Topic%20與通訊協定.md)。
 
 完整啟動順序請看 [1_Examples 執行流程](../03_執行流程/1_Examples%20執行流程.md)。
